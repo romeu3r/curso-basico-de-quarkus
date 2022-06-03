@@ -1,0 +1,7 @@
+#version: 3.7
+services:
+  produto_imagem:
+    container_name: myQuarkusDB
+    image:  mysql:latest
+    environment:
+      MYSQL_ROOT_PASSWORD: 101688
